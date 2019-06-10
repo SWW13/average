@@ -6,6 +6,7 @@ use super::{Estimate, Merge};
 
 include!("mean.rs");
 include!("variance.rs");
+include!("covariance.rs");
 include!("skewness.rs");
 include!("kurtosis.rs");
 
