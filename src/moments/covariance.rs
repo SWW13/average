@@ -1,6 +1,7 @@
 // own extension to https://crates.io/crates/average
 
 #[derive(Debug, Clone)]
+#[cfg_attr(feature = "serde1", derive(Serialize, Deserialize))]
 pub struct CoVariance {
     /// Estimator of X average.
     avg_x: Mean,
